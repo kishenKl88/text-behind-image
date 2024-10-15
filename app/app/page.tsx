@@ -106,7 +106,7 @@ const Page = () => {
 		const previewFontSize = `${scale * 800}%`;
 
 		// Custom scaling function for canvas size
-		const fontSize = (scale * 1600) + (scale * scale * 330); // Increase size slightly as scale grows
+		const fontSize = (scale * 1600) + (scale * scale * 400); // Increase size slightly as scale grows
 
                 console.log(`Preview font size for "${textSet.text}": ${previewFontSize}`); // Debugging log
                 console.log(`Canvas font size for "${textSet.text}": ${fontSize}px`); // Debugging log
